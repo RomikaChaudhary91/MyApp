@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">InternApplication</string>
+    <string name="account_login">Account Login</string>
+    <string name="your_email_address">Your Email Address</string>
+    <string name="your_password">Your Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="login">Login</string>
+    <string name="click_here_to_register">Click here to register</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="your_fullname">Your Fullname</string>
+    <string name="your_address">Your Address</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account_click_here_to_login">Already have an account? Click here to Login</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="registration">Registration</string>
+    <string name="profile">Profile</string>
+    <string name="location">Location</string>
+    <string name="log_out">Log Out</string>
+    <string name="mapimage">mapImage</string>
+    <string name="profileimage">profileImage</string>
+    <string name="regimage">regImage</string>
+    <string name="dashboardimage">dashboardImage</string>
+
+    <string name="imgdashboard">imgDashboard</string>
+    <string name="imgregistration">imgregistration</string>
+    <string name="imglocation">imgLocation</string>
+    <string name="main_portal">Main Portal</string>
+    <string name="_1">1</string>
+    <string name="harshrane09_gmail_com">harshrane09@gmail.com</string>
+    <string name="harshvardhan">Harshvardhan</string>
+    <string name="rane">Rane</string>
+    <string name="profile_pic">Profile_pic</string>
+
+</resources>

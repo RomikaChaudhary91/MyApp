@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOrange"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:fontFamily="@font/aclonica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/account_login"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimen_16"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        app:cardElevation="@dimen/dimen_8"
+        android:layout_marginLeft="@dimen/dimen_8"
+        android:layout_marginRight="@dimen/dimen_8"
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailTxtInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginLeft="@dimen/dimen_8"
+            android:layout_marginRight="@dimen/dimen_8"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_baseline_email_24"
+                android:drawableRight="@drawable/ic_baseline_email_24"
+                android:drawableTint="@color/colorPrimaryDark"
+                android:hint="@string/your_email_address"
+                tools:ignore="RtlHardcoded" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordlTxtInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginLeft="@dimen/dimen_8"
+            android:layout_marginRight="@dimen/dimen_8"
+            android:layout_marginTop="80dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_baseline_lock_24"
+                android:drawableRight="@drawable/ic_baseline_lock_24"
+                android:drawableTint="@color/colorPrimaryDark"
+                android:hint="@string/your_password"
+                tools:ignore="RtlHardcoded" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/remMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginTop="160dp"
+            android:checked="false"
+            android:text="@string/remember_me" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/loginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:layout_marginStart="140dp"
+            android:backgroundTint="@color/colorOrange"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textSize="25sp"
+            app:cornerRadius="@dimen/dimen_8" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
